@@ -1,0 +1,135 @@
+*, ::after, ::before{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+.container{
+    width: 80%;
+    margin-bottom: 150px;
+}
+.hero{
+    display: flex;
+    width: 100%;
+}
+.hero-intro{
+    width: 50%;
+    margin-left: 200px;
+}
+.hero-intro img{
+    width: 50%;
+}
+.hero-txt{
+    font-family: poppins;
+    font-weight: 400;
+    font-size: 60px;
+}
+.highlited-color{
+    color: #FFAD5A;
+}
+p{
+ font-family: poppins;
+ font-weight: 400;
+ font-size: 18px;
+ line-height: 28px;
+ color: #3E3E3E
+}
+
+.hero-btn{
+    text-decoration: none;
+    background-color: #FF5959;
+    color: white;
+    padding: 12px;
+    border-radius: 5px;
+}
+
+/* Section Two */
+
+.my-mission{
+    display: flex;
+    margin-left: 200px;
+}
+.my-mission img{
+    width: 40%;
+}
+.my-mission-txt{
+    text-align: center;
+    font-family: poppins;
+    font-weight: 700;
+    font-size: 48px;
+}
+.col + .col {
+    margin-left: 20px;
+}
+.col{
+    border-radius: 26px;
+    box-shadow: 5px 1px 10px rgba(0, 0, 0, 0.322);
+    padding: 30px;
+    width: 100%;
+}
+.col h6{
+    font-size: 24px;
+}
+.col p{
+    font-size: 16px;
+}
+.bg1{
+    background-color: rgba(79, 157, 166, 0.1);;
+}
+.bg2{
+    background-color: rgba(255, 89, 89, 0.1);
+}
+.bg3{
+    background-color: #FFF4D6;
+    ;
+}
+
+/* Section Three (Develop without limit) */
+
+.content_pd{
+    padding: 50px;
+}
+.content_btn{
+    text-decoration: none;
+    background-color: #FF5959;
+    color: white;
+    padding: 12px;
+    border-radius: 5px;
+}
+
+.top-bg1{
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 15%;
+    background-position: 10% 30%;
+}
+.contentOne_img img{
+    width: 400px;
+    height: 400px;
+}
+.contentOne_img{
+    margin-left: 200px;
+}
+.contentOne_intro{
+    width: 50%;
+    margin-left: 200px;
+}
+
+/* Section Four (Know our Global Community ) */
+.top-bg{
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+    background-size: 10%;
+}
+.contentTwo_img img{
+    width: 400px;
+    height: 400px;
+}
+.contentTwo_intro{
+    width: 50%;
+    margin-left: 200px;
+}
+.contentTwo_img{
+    margin-left: 200px;
+}
